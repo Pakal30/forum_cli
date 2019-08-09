@@ -1,0 +1,18 @@
+{
+    "code": 400,
+    "message": "Validation Failed",
+    "errors": {
+        "children": {
+            "titre": {
+                "errors": [
+                    "This value should not be blank."
+                ]
+            },
+            "auteur": {
+                "errors": [
+                    "This value should not be blank."
+                ]
+            }
+        }
+    }
+}

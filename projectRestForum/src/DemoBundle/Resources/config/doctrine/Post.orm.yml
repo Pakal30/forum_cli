@@ -1,0 +1,25 @@
+DemoBundle\Entity\Post:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        title:
+            type: string
+            length: 255
+    manyToOne:
+        auteur:
+            targetEntity: DemoBundle\Entity\Auteur
+            joinColumn:
+                name: auteur_id
+                referencedColumnName: id            
+    manyToOne:
+        sujet:
+            targetEntity: DemoBundle\Entity\Sujet
+            joinColumn:
+                name: sujet_id
+                referencedColumnName: id

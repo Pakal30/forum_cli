@@ -1,0 +1,10 @@
+DemoBundle\Entity\Post:
+    post1:
+        titre: 'Clean Code principles'
+        auteur: 'Robert C. Martin'
+    post2:
+        titre: 'TDD in practice'
+        auteur: 'Łukasz A. Chruściel'
+    post3:
+        titre: 'Magic of OpenSource'
+        auteur: 'Łukasz A. Chruściel'

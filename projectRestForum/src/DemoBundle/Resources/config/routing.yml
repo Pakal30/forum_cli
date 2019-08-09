@@ -1,0 +1,9 @@
+post_api:
+    type: sylius.api
+    resource: acme.post
+forum_api:
+    type: sylius.api
+    resource: acme.forum
+sujet_api:
+    type: sylius.api
+    resource: acme.sujet
